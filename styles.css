@@ -1,4 +1,3 @@
-/* Estilos Generales */
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
@@ -8,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #6a4c9c; /* Morado */
+    background-color: #ffa5f0;
     color: white;
     padding: 20px;
     text-align: center;
@@ -50,41 +49,41 @@ main {
 }
 
 .product-card h2 {
-    color: #6a4c9c;
+    color: #1612ec;
     margin: 10px 0;
 }
 
 .product-card .price {
     font-size: 18px;
     font-weight: bold;
-    color: #e84a5f; /* Rosa */
+    color: #1612ec;
 }
 
-.buy-now {
-    background-color: #e84a5f; /* Rosa */
+.comprar {
+    background-color: #12ddec;
     border: none;
-    color: white;
+    color: black;
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
     transition: transform 0.3s;
 }
 
-.buy-now:hover {
+.comprar {
     transform: scale(1.05);
 }
 
 footer {
-    background-color: #6a4c9c; /* Morado */
+    background-color: #ffa5f0;
     color: white;
     padding: 10px;
     text-align: center;
     margin-top: 20px;
 }
 
-/* Diseño Responsivo */
+
 @media (max-width: 768px) {
     .featured-products {
-        grid-template-columns: 1fr; /* Apilar las tarjetas */
+        grid-template-columns: 1fr;
     }
 }
